@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello World</title>
+    <title>Contact Kenya</title>
+    <meta name="description" content="Contact Kenya by email or on all social media platforms.">
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -30,22 +31,98 @@
     <link rel="stylesheet" href="styles/portfolio.css" />
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/shecodes-logo.png"
+            alt="SheCodes Logo"
+            class="logo d-none d-md-block"
+          />
+          <img
+            src="images/shecodes-logo-small.png"
+            alt="Small SheCodes Logo"
+            class="logo d-block d-md-none"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Page">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Work Page">Work</a>
+          </li>
+          <li class="active">
+            <a href="/contact.html" title="Contact Page">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Lets get in touch!</h1>
         <h3>Email</h3>
         <p>
-            <a href="mailto:kjohnson28@gmail.com" target="_blank">kjohnson28@gmail.com</a>
+            <a href="mailto:kjohnson28@gmail.com" target="_blank" title="Kenya's email">kjohnson28@gmail.com</a>
         </p>
         <h3>Twitter</h3>
         <p>
-            <a href="https://www.twitter.com/KJohnsonCodes" target="_blank">@KJohnsonCodes</a>
+            <a href="https://www.twitter.com/KJohnsonCodes" target="_blank" title="Kenya's twitter">@KJohnsonCodes</a>
         </p>
         <h3>Instagram</h3>
         <p>
-            <a href="htts://www.instagram.com/kjohnson_codes" target="_blank">@kjohnson_codes</a>
+            <a href="htts://www.instagram.com/kjohnson_codes" target="_blank" title="Kenya's instagram">@kjohnson_codes</a>
         </p>
       </div>
     </div>
+    <footer class="container">
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together!</p>
+          </div>
+          <div>
+            <a href="/contact.html" class="btn btn-branding mb-3" title="Contact Kenya">Let's talk here</a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a href="mailto:kjohnson28@gmail.com" 
+          class="email-link"
+          title="Email Kenya"
+            >kjohnson28@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a 
+          href="htts://www.instagram.com/kjohnson_codes" 
+          target="_blank"
+          title="Instagram Profile"
+            ><i class="fa-brands fa-instagram"></i
+          >
+        </a>
+          <a 
+          href="https://github.com/KenJohn28" 
+          target="_blank"
+          title="Github Profile"
+            ><i class="fa-brands fa-github"></i
+          >
+        </a>
+          <a 
+          href="https://www.twitter.com/KJohnsonCodes" 
+          target="_blank"
+          title="Twitter Profile"
+            ><i class="fa-brands fa-twitter"></i
+          >
+        </a>
+        </div>
+        <p class="text-center mt-4 text-muted">
+            This project was coded by Kenya, and it is <a href="https://github.com/KenJohn28/portfolio-project" target="_blank" title="Github Repository">open-sourced</a>.
+        </p>
+      </footer>
   </body>
 </html>

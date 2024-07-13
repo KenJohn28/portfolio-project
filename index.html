@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello World</title>
+    <title>Front-end Developer - Kenya M. Johnson</title>
+    <meta
+      name="description"
+      content="Kenya is a front-end engineer in training, who currently resides in Raleigh, NC working as a Sr. Data Analyst for an AdTech company. Kenya has an extensive background in data analytics and is now making great strides to pivot into the web developer space"
+    />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -31,26 +35,34 @@
   </head>
   <body>
     <div class="container">
-    <nav class="d-flex justify-content-between">
-        <a href="/">
-        <img src="images/shecodes-logo.png" alt="SheCodes Logo" class="logo d-none d-md-block">
-        <img src="images/shecodes-logo-small.png" alt="Small SheCodes Logo" class="logo d-block d-md-none">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/shecodes-logo.png"
+            alt="SheCodes Logo"
+            class="logo d-none d-md-block"
+          />
+          <img
+            src="images/shecodes-logo-small.png"
+            alt="Small SheCodes Logo"
+            class="logo d-block d-md-none"
+          />
         </a>
         <ul>
-            <li class="active">
-                <a href="/">Home</a>
-            </li>
-            <li>
-                <a href="/about.html">About</a>
-            </li>
-            <li>
-                <a href="/work.html">Work</a>
-            </li>
-            <li>
-                <a href="/contact.html">Contact</a>
-            </li>
+          <li class="active">
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Page">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Work Page">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Page">Contact</a>
+          </li>
         </ul>
-    </nav>
+      </nav>
     </div>
     <div class="hero">
       <p>👋 Hello, I am</p>
@@ -58,7 +70,7 @@
       <div class="mb-5">
         <h2>Front-end Developer based in America</h2>
       </div>
-      <a href="" class="btn btn-branding">Contact me</a>
+      <a href="/contact.html" class="btn btn-branding" title="Contact Me">Contact me</a>
     </div>
     <p class="text-center m-5">Featured projects since learning to code</p>
     <div class="container">
@@ -66,22 +78,22 @@
         <div class="col d-none d-lg-block">
           <img
             src="images/yogurt-image.png"
-            alt="screebnshot of yogurt app"
+            alt="yogurt app preview"
             class="img-fluid"
           />
         </div>
-      <div class="col">
-        <div class="project-description">
-          <h2 class="mb-5">Yogurt Project</h2>
-          <p class="mb-5 text-muted">
-            Far far away, behind the word mountains, far from the countries
-            Vokalia and Consonantia, there live the blind texts. Separated they
-            live in Bookmarksgrove right at the coast of the Semantics, a large
-            language ocean. A small river named Duden flows by
-          </p>
-          <a href="" class="btn btn-branding-outline">Learn more</a>
+        <div class="col">
+          <div class="project-description">
+            <h2 class="mb-5">Yogurt Project</h2>
+            <p class="mb-5 text-muted">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts. Separated
+              they live in Bookmarksgrove right at the coast of the Semantics, a
+              large language ocean. A small river named Duden flows by
+            </p>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
+          </div>
         </div>
-      </div>
       </div>
       <div class="row mb-5">
         <div class="col">
@@ -93,13 +105,13 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
         <div class="col d-none d-lg-block">
           <img
             src="images/weather-app-image.png"
-            alt="screebnshot of yogurt app"
+            alt="weather app preview"
             class="img-fluid"
           />
         </div>
@@ -108,7 +120,7 @@
         <div class="col d-none d-lg-block">
           <img
             src="images/dictionary-app-image.png"
-            alt="screebnshot of yogurt app"
+            alt="dictionary app preview"
             class="img-fluid"
           />
         </div>
@@ -121,31 +133,56 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
       <footer>
-        <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
-        <div>
-        <h4>
-            Work Inquiry
-        </h4>
-        <p class="text-muted">Let's work together!</p>
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together!</p>
+          </div>
+          <div>
+            <a href="/contact.html" class="btn btn-branding mb-3" title="Contact Kenya">Let's talk here</a>
+          </div>
         </div>
-        <div>
-        <a href="" class="btn btn-branding mb-3">Let's talk here</a>
-      </div>
-      </div>
         <div class="d-flex justify-content-center mb-5">
-        <a href="mailto:kjohnson28@gmail.com" class="email-link">kjohnson28@gmail.com</a>
+          <a href="mailto:kjohnson28@gmail.com" 
+          class="email-link"
+          title="Email Kenya"
+            >kjohnson28@gmail.com</a
+          >
         </div>
         <div class="social-links d-flex justify-content-center">
-            <a href="htts://www.instagram.com/kjohnson_codes" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://github.com/KenJohn28" target="_blank"><i class="fa-brands fa-github"></i></a>
-            <a href="https://www.twitter.com/KJohnsonCodes" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-         </div>
-    </footer>
+          <a 
+          href="htts://www.instagram.com/kjohnson_codes" 
+          target="_blank"
+          title="Instagram Profile"
+            ><i class="fa-brands fa-instagram"></i
+          >
+        </a>
+          <a 
+          href="https://github.com/KenJohn28" 
+          target="_blank"
+          title="Github Profile"
+            ><i class="fa-brands fa-github"></i
+          >
+        </a>
+          <a 
+          href="https://www.twitter.com/KJohnsonCodes" 
+          target="_blank"
+          title="Twitter Profile"
+            ><i class="fa-brands fa-twitter"></i
+          >
+        </a>
+        </div>
+        <p class="text-center mt-4 text-muted">
+            This project was coded by Kenya, and it is <a href="https://github.com/KenJohn28/portfolio-project" target="_blank" title="Github Repository">open-sourced</a>.
+        </p>
+      </footer>
     </div>
   </body>
 </html>
